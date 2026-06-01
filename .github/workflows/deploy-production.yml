@@ -29,7 +29,8 @@ jobs:
           APP_ENV=prod APP_DEBUG=0 composer install \
             --no-dev \
             --optimize-autoloader \
-            --no-interaction
+            --no-interaction \
+            --no-scripts
 
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.3.2
