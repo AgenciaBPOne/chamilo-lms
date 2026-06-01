@@ -7,7 +7,6 @@ on:
   workflow_dispatch:
 
 
-name: 🚀 Deploy website on push
 jobs:
   web-deploy:
     name: 🎉 Deploy
